@@ -6,7 +6,7 @@ namespace ColonyDefender.Presentation
 {
     public class BuildingView : MonoBehaviour
     {
-        [SerializeField] private int _energyCost = 100;
+        [SerializeField] private BuildingType buildingType;
     
         private void Start()
         {
@@ -20,7 +20,7 @@ namespace ColonyDefender.Presentation
 
         private void OnClick()
         {
-            MessageBroker.Default.Publish(new BuildingClicked(_energyCost));
+            MessageBroker.Default.Publish(new BuildingClicked { BuildingType = buildingType });
         }
 
         private Vector2 GetClickWorldPosition()
