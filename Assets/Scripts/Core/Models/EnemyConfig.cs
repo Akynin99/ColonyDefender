@@ -11,6 +11,7 @@ namespace ColonyDefender.Core
         [SerializeField] private int damage = 10;
         [SerializeField] private float speed = 3f;
         [SerializeField] private int resourceReward = 25;
+        [SerializeField] private bool isBoss;
         
         public EnemyType Type => type;
         public GameObject Prefab => prefab;
@@ -18,6 +19,7 @@ namespace ColonyDefender.Core
         public int Damage => damage;
         public float Speed => speed;
         public int ResourceReward => resourceReward;
+        public bool IsBoss => isBoss;
         
         public Enemy CreateEnemy()
         {
