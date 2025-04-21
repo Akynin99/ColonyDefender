@@ -3,7 +3,7 @@ using ColonyDefender.Core;
 using UniRx;
 using UnityEngine;
 
-namespace ColonyDefender.Infrastructure
+namespace ColonyDefender.Infrastructure.Services
 {
     public class ResourceService : IResourceService, IDisposable
     {
