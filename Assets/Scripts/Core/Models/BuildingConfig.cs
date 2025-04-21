@@ -6,6 +6,8 @@ namespace ColonyDefender.Core
     public class BuildingConfig : ScriptableObject
     {
         [SerializeField] private BuildingType type;
+        [SerializeField] private GameObject prefab;
+        [SerializeField] private Sprite icon;
         [SerializeField] private Vector2Int size = new Vector2Int(1, 1);
         [SerializeField] private int health = 100;
         [SerializeField] private int energyCost;
