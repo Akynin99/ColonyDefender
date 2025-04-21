@@ -212,32 +212,4 @@ namespace ColonyDefender.Infrastructure.Services
 
         public void Dispose() => _disposables.Dispose();
     }
-    
-    public class EnemySpawned
-    {
-        public Enemy Enemy { get; set; }
-        public Vector3 Position { get; set; }
-        public bool IsBoss { get; set; }
-    }
-    
-    public class EnemyDefeated
-    {
-        public Enemy Enemy { get; set; }
-    }
-    
-    public class EnemyDamaged
-    {
-        public Enemy Enemy { get; set; }
-        public int Damage { get; set; }
-    }
-    
-    public class WaveStarted
-    {
-        public WaveConfig Wave { get; set; }
-    }
-    
-    public class WaveCompleted
-    {
-        public WaveConfig Wave { get; set; }
-    }
 }
