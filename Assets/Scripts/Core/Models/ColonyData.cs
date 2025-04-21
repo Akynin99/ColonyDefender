@@ -1,7 +1,6 @@
 ﻿using UniRx;
-using UnityEngine;
 
-namespace ColonyDefender
+namespace ColonyDefender.Core
 {
     public class ColonyData
     {

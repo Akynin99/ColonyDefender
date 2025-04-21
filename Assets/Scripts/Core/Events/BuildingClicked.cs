@@ -1,4 +1,4 @@
-﻿namespace ColonyDefender
+﻿namespace ColonyDefender.Core
 {
     public readonly struct BuildingClicked
     {

@@ -1,7 +1,9 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using ColonyDefender.Infrastructure;
+using ColonyDefender.Presentation;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace ColonyDefender
+namespace ColonyDefender.Core
 {
     public class GameInstaller : MonoBehaviour
     {

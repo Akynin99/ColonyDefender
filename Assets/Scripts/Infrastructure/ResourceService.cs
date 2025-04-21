@@ -1,8 +1,9 @@
 ﻿using System;
+using ColonyDefender.Core;
 using UniRx;
 using UnityEngine;
 
-namespace ColonyDefender
+namespace ColonyDefender.Infrastructure
 {
     public class ResourceService : IResourceService, IDisposable
     {

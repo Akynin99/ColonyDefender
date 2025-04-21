@@ -1,7 +1,8 @@
 ﻿using System;
+using ColonyDefender.Core;
 using UniRx;
 
-namespace ColonyDefender
+namespace ColonyDefender.Presentation
 {
     public class ColonyViewModel : IDisposable
     {

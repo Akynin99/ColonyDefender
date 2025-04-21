@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ColonyDefender
+namespace ColonyDefender.Core
 {
     [CreateAssetMenu(fileName = "WaveConfig", menuName = "ColonyDefender/WaveConfig", order = 0)]
     public class WaveConfig : ScriptableObject

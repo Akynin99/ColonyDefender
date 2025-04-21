@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using Cysharp.Threading.Tasks;
 
-namespace ColonyDefender
+namespace ColonyDefender.Core
 {
     public interface IWaveManager
     {

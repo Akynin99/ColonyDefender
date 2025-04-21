@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Threading;
+using ColonyDefender.Core;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace ColonyDefender
+namespace ColonyDefender.Infrastructure
 {
     public class WaveSpawner : IWaveManager
     {

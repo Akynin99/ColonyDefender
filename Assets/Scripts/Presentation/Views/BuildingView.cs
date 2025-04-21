@@ -1,7 +1,8 @@
-﻿using UniRx;
+﻿using ColonyDefender.Core;
+using UniRx;
 using UnityEngine;
 
-namespace ColonyDefender
+namespace ColonyDefender.Presentation
 {
     public class BuildingView : MonoBehaviour
     {
