@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using ColonyDefender;
 using ColonyDefender.Core;
-using ColonyDefender.Presentation;
 using TMPro;
 using UniRx;
 using UnityEngine;

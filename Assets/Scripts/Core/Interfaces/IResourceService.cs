@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ColonyDefender.Core
+﻿namespace ColonyDefender.Core
 {
     public interface IResourceService
     {

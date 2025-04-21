@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading;
-using ColonyDefender.Infrastructure.Services;
 using Cysharp.Threading.Tasks;
 
 namespace ColonyDefender.Core
