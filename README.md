@@ -16,6 +16,7 @@ The project follows a clean architecture approach with scripts organized by thei
 - `ColonyData.cs`: Colony resources and production data
 - `Building.cs`: Building entity model
 - `BuildingConfig.cs`: ScriptableObject for building configurations
+- `ColorPalette.cs`: ScriptableObject for storing and managing color palettes
 - `Enemy.cs`: Enemy entity model
 - `EnemyConfig.cs`: ScriptableObject for enemy configurations
 - `MapGrid.cs`: Grid system for building placement
